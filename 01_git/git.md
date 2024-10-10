@@ -7,6 +7,7 @@
 - [2. Flujo básico de trabajo](#2-flujo-básico-de-trabajo)
 - [3. Conectar `git` con `GitHub`](#3-conectar-git-con-github)
 - [4. Añadir repositorios locales a GitHub.](#4-añadir-repositorios-locales-a-github)
+- [5. Crear repositorio local desde uno remoto.](#5-crear-repositorio-local-desde-uno-remoto)
 
 # 0. Instalación y configuración de git
 
@@ -102,12 +103,18 @@ significa que todo ha salido bien.
 
 # 4. Añadir repositorios locales a GitHub.
 Si tienes un repositorio local que quieres añadir a un repositorio de GitHub deberás: 
-1. Añadir el repositorio remoto de GitHub: 
+1. Creamos el repositorio en GitHub.
+2. Añadir el repositorio remoto de GitHub: 
 ```
 $ git remote add origin git@github.com:[user-name]/[repo-name]
 ```
 
-2. 'Pushear' los archivos locales al repositorio remoto: 
+3. 'Pushear' los archivos locales al repositorio remoto: 
 ```
 $ git push -u origin [nombre de la rama]
 ```
+
+# 5. Crear repositorio local desde uno remoto.
+
+1. Crear el repositorio en GitHub. 
+2. Seguir los pasos de GitHub, no tiene perdida. 
