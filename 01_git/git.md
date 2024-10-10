@@ -8,6 +8,7 @@
 - [3. Conectar `git` con `GitHub`](#3-conectar-git-con-github)
 - [4. Añadir repositorios locales a GitHub.](#4-añadir-repositorios-locales-a-github)
 - [5. Crear repositorio local desde uno remoto.](#5-crear-repositorio-local-desde-uno-remoto)
+- [6. Gestión de ramas y versiones.](6-gestión-de-ramas-y-versiones)
 
 # 0. Instalación y configuración de git
 
@@ -118,3 +119,5 @@ $ git push -u origin [nombre de la rama]
 
 1. Crear el repositorio en GitHub. 
 2. Seguir los pasos de GitHub, no tiene perdida. 
+
+# 6. Gestión de ramas y versiones.
